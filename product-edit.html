@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Thêm Sản Phẩm | Snacko</title>
+    <title>Sửa Sản Phẩm | Snacko</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -117,23 +117,12 @@
                             <ul class="submenu-angle" aria-expanded="true">
                                 <li><a title="Bảng Điều Khiển" href="index.html"><span class="mini-sub-pro">Bảng
                                             Điều Khiển</span></a></li>
-                                <li id="category"><a class="has-arrow" href="#">
-                                        <span class="mini-click-non">Danh Mục Sản Phẩm</span></a>
-                                    <ul class="submenu-angle" aria-expanded="false">
-                                        <li><a title="Loại Sản Phẩm" href="product-category.html"><span
-                                                    class="mini-sub-pro">Loại Sản Phẩm</span></a></li>
-                                        <li><a title="Chỉnh Sửa Loại Sản Phẩm" href="product-category-edit.html"><span
-                                                    class="mini-sub-pro">Chỉnh Sửa Loại Sản Phẩm</span></a></li>
-                                        <li><a title="Thêm Loại Sản Phẩm" href="product-category-add.html"><span
-                                                    class="mini-sub-pro">Thêm Loại Sản Phẩm</span></a></li>
-                                        <li><a title="Xóa Loại Sản Phẩm" href="product-category-del.html"><span
-                                                    class="mini-sub-pro">Xóa Loại Sản Phẩm</span></a></li>
-                                    </ul>
-                                </li>
+                                <li><a title="Danh Mục Sản Phẩm" href="product-category.html"><span
+                                            class="mini-sub-pro">Danh Mục Sản Phẩm</span></a></li>
                                 <li><a title="Danh Sách Sản Phẩm" href="product-list.html"><span
                                             class="mini-sub-pro">Danh Sách Sản Phẩm</span></a></li>
-                                <li><a title="Thêm Sản Phẩm" href="product-edit.html"><span
-                                            class="mini-sub-pro">Thêm Sản Phẩm</span></a></li>
+                                <li><a title="Danh Sách Mã Giảm Giá" href="voucher-list.html"><span
+                                            class="mini-sub-pro">Danh Sách Mã Giảm Giá</span></a></li>
                                 <li><a title="Chi Tiết Sản Phẩm" href="product-detail.html"><span
                                             class="mini-sub-pro">Chi Tiết Sản Phẩm</span></a></li>
                                 <li><a title="Giỏ Sản Phẩm" href="product-cart.html"><span class="mini-sub-pro">Giỏ Sản
@@ -896,21 +885,9 @@
                                                     class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
                                             <ul class="collapse dropdown-header-top">
                                                 <li><a href="index.html">Bảng Điều Khiển</a></li>
-                                                <li><a data-toggle="collapse" data-target="#Charts" href="#">Danh Mục
-                                                        Sản Phẩm<span
-                                                            class="admin-project-icon nalika-icon nalika-down-arrow"></a>
-                                                    <ul class="collapse dropdown-header-top">
-                                                        <li><a href="product-category.html">Loại Sản Phẩm</a></li>
-                                                        <li><a href="product-category-edit.html">Chỉnh Sửa Loại Sản
-                                                                Phẩm</a></li>
-                                                        <li><a href="product-category-add.html">Thêm Loại Sản Phẩm</a>
-                                                        </li>
-                                                        <li><a href="product-category-del.html">Xóa Loại Sản Phẩm</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                                <li><a href="product-category.html">Danh Mục Sản Phẩm</a></li>
                                                 <li><a href="product-list.html">Danh Sách Sản Phẩm</a></li>
-                                                <li><a href="product-edit.html">Thêm Sản Phẩm</a></li>
+                                                <li><a href="voucher-list.html">Danh Sách Mã Giảm Giá</a></li>
                                                 <li><a href="product-detail.html">Chi Tiết Sản Phẩm</a></li>
                                                 <li><a href="product-cart.html">Giỏ Sản Phẩm</a></li>
                                                 <li><a href="product-payment.html">Thanh Toán Sản Phẩm</a></li>
@@ -948,7 +925,7 @@
                                                 <i class="icon nalika-home"></i>
                                             </div>
                                             <div class="breadcomb-ctn">
-                                                <h2>Thêm Sản Phẩm</h2>
+                                                <h2>Sửa Sản Phẩm</h2>
                                                 <p><span class="bread-ntd">Chào Mừng Tới Snacko</span></p>
                                             </div>
                                         </div>
@@ -979,358 +956,89 @@
                             <div class="review-tab-pro-inner">
                                 <ul id="myTab3" class="tab-review-design">
                                     <li class="active"><a href="#description"><i class="icon nalika-edit"
-                                                aria-hidden="true"></i>Thêm Sản Phẩm</a></li>
-                                    <li><a href="#reviews"><i class="icon nalika-picture" aria-hidden="true"></i>
-                                            Hình Ảnh</a></li>
-                                    <li><a href="#INFORMATION"><i class="icon nalika-chat" aria-hidden="true"></i>
-                                            Nhận Xét</a></li>
+                                                aria-hidden="true"></i>Sửa Sản Phẩm</a></li>
                                 </ul>
-                                <div id="myTabContent" class="tab-content custom-product-edit">
+                                <div id="myTabContent" class="tab-content custom-product-add">
                                     <div class="product-tab-list tab-pane fade active in" id="description">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                 <div class="review-content-section">
                                                     <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-user"
-                                                                aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Tên">
-                                                    </div>
-                                                    <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="icon nalika-edit"
                                                                 aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Tên Sản Phẩm">
+                                                        <input type="text" class="form-control" id="product-name"
+                                                            placeholder="Tên Sản Phẩm" value="Bánh Gấu Nhân Kem">
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="fa fa-usd"
+                                                        <span class="input-group-addon"><i class="icon nalika-favorites"
                                                                 aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Giá">
+                                                        <select class="form-control pro-edt-select form-control-primary"
+                                                            id="status" name="select">
+                                                            <option value="opt1">Tình Trạng</option>
+                                                            <option value="opt2" selected>Còn Hàng</option>
+                                                            <option value="opt3">Hết Hàng</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-group mg-b-pro-edt">
+                                                        <span class="input-group-addon"><i class="icon nalika-like"
+                                                                aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" id="cat"
+                                                            placeholder="Mã Danh Mục" value="BG">
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i
                                                                 class="icon nalika-favorites-button"
                                                                 aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Mô Tả Sản Phẩm">
-                                                    </div>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-favorites"
-                                                                aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Số Lượng">
+                                                        <input type="text" class="form-control" id="desc"
+                                                            placeholder="Mô Tả Sản Phẩm" value="Bánh Gấu Nhân Kem">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                 <div class="review-content-section">
                                                     <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-user"
+                                                        <span class="input-group-addon"><i class="icon nalika-new-file"
                                                                 aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Họ">
+                                                        <input type="text" class="form-control" id="sku"
+                                                            placeholder="Mã Sản Phẩm" value="BG01">
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-usd"
                                                                 aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Mã Sản Phẩm">
+                                                        <input type="text" class="form-control" id="price"
+                                                            placeholder="Giá" value="10,000đ">
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-like"
+                                                        <span class="input-group-addon"><i class="icon nalika-picture"
                                                                 aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Mã Loại">
+                                                        <input type="file" class="form-control" id="single-image-input"
+                                                            name="fileUpload" accept="image/*"
+                                                            onchange="replaceSingleImage()">
+                                                        <span class="input-group-addon">
+                                                            <button data-toggle="tooltip" title="Xóa"
+                                                                class="pd-setting-ed" onclick="removeSingleImage()"><i
+                                                                    class="fa fa-trash-o"
+                                                                    aria-hidden="true"></i></button>
+                                                        </span>
                                                     </div>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-new-file"
-                                                                aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Thuế">
+
+                                                    <!--Hiển Thị Ảnh-->
+                                                    <div class="img-wrap" id="single-image-wrap">
+                                                        <img id="single-product-image" alt=""
+                                                            src="img/new-product/1-small.jpg" style="max-width: 100px;">
                                                     </div>
-                                                    <select name="select"
-                                                        class="form-control pro-edt-select form-control-primary">
-                                                        <option value="opt1">Tình Trạng</option>
-                                                        <option value="opt2">Còn Hàng</option>
-                                                        <option value="opt3">Hết Hàng</option>
-                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <br>
+
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="text-center custom-pro-edt-ds">
                                                     <button type="button"
-                                                        class="btn btn-ctl-bt waves-effect waves-light m-r-10">Lưu
-                                                    </button>
-                                                    <button type="button"
-                                                        class="btn btn-ctl-bt waves-effect waves-light">Không Lưu
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-tab-list tab-pane fade" id="reviews">
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <div class="review-content-section">
-                                                    <div class="row">
-                                                        <div class="col-lg-4">
-                                                            <div class="pro-edt-img">
-                                                                <img src="img/new-product/1-small.jpg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="row">
-                                                                <div class="col-lg-12">
-                                                                    <div class="product-edt-pix-wrap">
-                                                                        <div class="input-group">
-                                                                            <span class="input-group-addon">TT</span>
-                                                                            <input type="text" class="form-control"
-                                                                                placeholder="Tên Nhãn">
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <div class="col-lg-6">
-                                                                                <div class="form-radio">
-                                                                                    <form>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Lớn
-                                                                                            </label>
-                                                                                        </div>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Vừa
-                                                                                            </label>
-                                                                                        </div>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Nhỏ
-                                                                                            </label>
-                                                                                        </div>
-                                                                                    </form>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-lg-6">
-                                                                                <div class="product-edt-remove">
-                                                                                    <button type="button"
-                                                                                        class="btn btn-ctl-bt waves-effect waves-light">Loại
-                                                                                        Bỏ
-                                                                                        <i class="fa fa-times"
-                                                                                            aria-hidden="true"></i>
-                                                                                    </button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-lg-4">
-                                                            <div class="pro-edt-img">
-                                                                <img src="img/new-product/2-small.jpg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="row">
-                                                                <div class="col-lg-12">
-                                                                    <div class="product-edt-pix-wrap">
-                                                                        <div class="input-group">
-                                                                            <span class="input-group-addon">TT</span>
-                                                                            <input type="text" class="form-control"
-                                                                                placeholder="Tên Nhãn">
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <div class="col-lg-6">
-                                                                                <div class="form-radio">
-                                                                                    <form>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Lớn
-                                                                                            </label>
-                                                                                        </div>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Vừa
-                                                                                            </label>
-                                                                                        </div>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Nhỏ
-                                                                                            </label>
-                                                                                        </div>
-                                                                                    </form>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-lg-6">
-                                                                                <div class="product-edt-remove">
-                                                                                    <button type="button"
-                                                                                        class="btn btn-ctl-bt waves-effect waves-light">Loại
-                                                                                        Bỏ
-                                                                                        <i class="fa fa-times"
-                                                                                            aria-hidden="true"></i>
-                                                                                    </button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-lg-4">
-                                                            <div class="pro-edt-img mg-b-0">
-                                                                <img src="img/new-product/3-small.jpg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="row">
-                                                                <div class="col-lg-12">
-                                                                    <div class="product-edt-pix-wrap">
-                                                                        <div class="input-group">
-                                                                            <span class="input-group-addon">TT</span>
-                                                                            <input type="text" class="form-control"
-                                                                                placeholder="Tên Nhãn">
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <div class="col-lg-6">
-                                                                                <div class="form-radio">
-                                                                                    <form>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Lớn
-                                                                                            </label>
-                                                                                        </div>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Vừa
-                                                                                            </label>
-                                                                                        </div>
-                                                                                        <div class="radio radiofill">
-                                                                                            <label>
-                                                                                                <input type="radio"
-                                                                                                    name="radio"><i
-                                                                                                    class="helper"></i>Hình
-                                                                                                Nhỏ
-                                                                                            </label>
-                                                                                        </div>
-                                                                                    </form>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-lg-6">
-                                                                                <div class="product-edt-remove">
-                                                                                    <button type="button"
-                                                                                        class="btn btn-ctl-bt waves-effect waves-light">Loại
-                                                                                        Bỏ
-                                                                                        <i class="fa fa-times"
-                                                                                            aria-hidden="true"></i>
-                                                                                    </button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-tab-list tab-pane fade" id="INFORMATION">
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <div class="review-content-section">
-                                                    <div class="card-block">
-                                                        <div class="text-muted f-w-400">
-                                                            <p>Chưa có nhận xét.</p>
-                                                        </div>
-                                                        <div class="m-t-10">
-                                                            <div class="txt-primary f-18 f-w-600">
-                                                                <p>Đánh Giá</p>
-                                                            </div>
-                                                            <div class="stars stars-example-css detail-stars">
-                                                                <div class="review-rating">
-                                                                    <fieldset class="rating">
-                                                                        <input type="radio" id="star5" name="rating"
-                                                                            value="5">
-                                                                        <label class="full" for="star5"></label>
-                                                                        <input type="radio" id="star4half" name="rating"
-                                                                            value="4 and a half">
-                                                                        <label class="half" for="star4half"></label>
-                                                                        <input type="radio" id="star4" name="rating"
-                                                                            value="4">
-                                                                        <label class="full" for="star4"></label>
-                                                                        <input type="radio" id="star3half" name="rating"
-                                                                            value="3 and a half">
-                                                                        <label class="half" for="star3half"></label>
-                                                                        <input type="radio" id="star3" name="rating"
-                                                                            value="3">
-                                                                        <label class="full" for="star3"></label>
-                                                                        <input type="radio" id="star2half" name="rating"
-                                                                            value="2 and a half">
-                                                                        <label class="half" for="star2half"></label>
-                                                                        <input type="radio" id="star2" name="rating"
-                                                                            value="2">
-                                                                        <label class="full" for="star2"></label>
-                                                                        <input type="radio" id="star1half" name="rating"
-                                                                            value="1 and a half">
-                                                                        <label class="half" for="star1half"></label>
-                                                                        <input type="radio" id="star1" name="rating"
-                                                                            value="1">
-                                                                        <label class="full" for="star1"></label>
-                                                                        <input type="radio" id="starhalf" name="rating"
-                                                                            value="half">
-                                                                        <label class="half" for="starhalf"></label>
-                                                                    </fieldset>
-                                                                </div>
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="input-group mg-b-15 mg-t-15">
-                                                            <span class="input-group-addon"><i class="icon nalika-user"
-                                                                    aria-hidden="true"></i></span>
-                                                            <input type="text" class="form-control"
-                                                                placeholder="Tên Người Dùng">
-                                                        </div>
-                                                        <div class="input-group mg-b-15">
-                                                            <span class="input-group-addon"><i class="icon nalika-user"
-                                                                    aria-hidden="true"></i></span>
-                                                            <input type="text" class="form-control" placeholder="Họ">
-                                                        </div>
-                                                        <div class="input-group mg-b-15">
-                                                            <span class="input-group-addon"><i class="icon nalika-mail"
-                                                                    aria-hidden="true"></i></span>
-                                                            <input type="text" class="form-control" placeholder="Email">
-                                                        </div>
-                                                        <div class="form-group review-pro-edt mg-b-0-pt">
-                                                            <button type="submit"
-                                                                class="btn btn-ctl-bt waves-effect waves-light">Gửi
-                                                            </button>
-                                                        </div>
-                                                    </div>
+                                                        class="btn btn-ctl-bt waves-effect waves-light m-r-10"
+                                                        onclick="validateFieldsAndRedirect()">Lưu</button>
                                                 </div>
                                             </div>
                                         </div>
