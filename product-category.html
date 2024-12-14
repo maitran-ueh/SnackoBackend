@@ -954,18 +954,22 @@
                                 <a href="product-category-add.html">Thêm Danh Mục</a>
                             </div>
                             <table>
+                                <thead>
                                 <tr>
                                     <th>Tên Danh Mục</th>
                                     <th>Mã Danh Mục</th>
                                     <th>Mô Tả</th>
                                     <th>Cài Đặt</th>
                                 </tr>
+                            </thead>
+                            <tbody id="product-list">
+                                        <!-- Danh sách sản phẩm sẽ được hiển thị tại đây -->
                                 <tr>
                                     <td>Bánh Gấu</td>
                                     <td>BG</td>
                                     <td>Bao gồm các sản phẩm bánh gấu</td>
                                     <td>
-                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed"><a
+                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed" onclick="editProduct(this)"><a
                                                 href="product-category-edit.html"><i class="fa fa-pencil-square-o"
                                                     aria-hidden="true"></i></a></button>
                                         <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
@@ -978,7 +982,7 @@
                                     <td>HM</td>
                                     <td>Bao gồm các sản phẩm hạt mix</td>
                                     <td>
-                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed"><a
+                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed" onclick="editProduct(this)"><a
                                                 href="product-category-edit.html"><i class="fa fa-pencil-square-o"
                                                     aria-hidden="true"></i></a></button>
                                         <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
@@ -991,7 +995,7 @@
                                     <td>NE</td>
                                     <td>Bao gồm các sản phẩm nước ép</td>
                                     <td>
-                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed"><a
+                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed" onclick="editProduct(this)"><a
                                                 href="product-category-edit.html"><i class="fa fa-pencil-square-o"
                                                     aria-hidden="true"></i></a></button>
                                         <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
@@ -999,6 +1003,7 @@
                                                 aria-hidden="true"></i></button>
                                     </td>
                                 </tr>
+                            </tbody>
                             </table>
                         </div>
                     </div>
