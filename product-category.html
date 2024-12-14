@@ -7,7 +7,6 @@
     <title>Danh Mục Sản Phẩm | Snacko</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- favicon
 		============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
@@ -955,55 +954,58 @@
                             </div>
                             <table>
                                 <thead>
-                                <tr>
-                                    <th>Tên Danh Mục</th>
-                                    <th>Mã Danh Mục</th>
-                                    <th>Mô Tả</th>
-                                    <th>Cài Đặt</th>
-                                </tr>
-                            </thead>
-                            <tbody id="product-list">
-                                        <!-- Danh sách sản phẩm sẽ được hiển thị tại đây -->
-                                <tr>
-                                    <td>Bánh Gấu</td>
-                                    <td>BG</td>
-                                    <td>Bao gồm các sản phẩm bánh gấu</td>
-                                    <td>
-                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed" onclick="editProduct(this)"><a
-                                                href="product-category-edit.html"><i class="fa fa-pencil-square-o"
-                                                    aria-hidden="true"></i></a></button>
-                                        <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
-                                            onclick="xoaDongNay(this)"><i class="fa fa-trash-o"
-                                                aria-hidden="true"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Hạt Mix</td>
-                                    <td>HM</td>
-                                    <td>Bao gồm các sản phẩm hạt mix</td>
-                                    <td>
-                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed" onclick="editProduct(this)"><a
-                                                href="product-category-edit.html"><i class="fa fa-pencil-square-o"
-                                                    aria-hidden="true"></i></a></button>
-                                        <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
-                                            onclick="xoaDongNay(this)"><i class="fa fa-trash-o"
-                                                aria-hidden="true"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Nước Ép</td>
-                                    <td>NE</td>
-                                    <td>Bao gồm các sản phẩm nước ép</td>
-                                    <td>
-                                        <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed" onclick="editProduct(this)"><a
-                                                href="product-category-edit.html"><i class="fa fa-pencil-square-o"
-                                                    aria-hidden="true"></i></a></button>
-                                        <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
-                                            onclick="xoaDongNay(this)"><i class="fa fa-trash-o"
-                                                aria-hidden="true"></i></button>
-                                    </td>
-                                </tr>
-                            </tbody>
+                                    <tr>
+                                        <th>Tên Danh Mục</th>
+                                        <th>Mã Danh Mục</th>
+                                        <th>Mô Tả</th>
+                                        <th>Cài Đặt</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="product-category">
+                                    <!-- Danh mục sản phẩm sẽ được hiển thị tại đây -->
+                                    <tr>
+                                        <td>Bánh Gấu</td>
+                                        <td>BG</td>
+                                        <td>Bao gồm các sản phẩm bánh gấu</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed"
+                                                onclick="editCategory(this)"><a href="product-category-edit.html"><i
+                                                        class="fa fa-pencil-square-o"
+                                                        aria-hidden="true"></i></a></button>
+                                            <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
+                                                onclick="deleteCategory(this)"><i class="fa fa-trash-o"
+                                                    aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hạt Mix</td>
+                                        <td>HM</td>
+                                        <td>Bao gồm các sản phẩm hạt mix</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed"
+                                                onclick="editCategory(this)"><a href="product-category-edit.html"><i
+                                                        class="fa fa-pencil-square-o"
+                                                        aria-hidden="true"></i></a></button>
+                                            <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
+                                                onclick="deleteCategory(this)"><i class="fa fa-trash-o"
+                                                    aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nước Ép</td>
+                                        <td>NE</td>
+                                        <td>Bao gồm các sản phẩm nước ép</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Sửa" class="pd-setting-ed"
+                                                onclick="editCategory(this)"><a href="product-category-edit.html"><i
+                                                        class="fa fa-pencil-square-o"
+                                                        aria-hidden="true"></i></a></button>
+                                            <button data-toggle="tooltip" title="Xóa" class="pd-setting-ed"
+                                                onclick="deleteCategory(this)"><i class="fa fa-trash-o"
+                                                    aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>

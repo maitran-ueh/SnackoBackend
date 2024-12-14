@@ -1003,9 +1003,9 @@
                                                                 aria-hidden="true"></i></span>
                                                         <select class="form-control pro-edt-select form-control-primary"
                                                             id="status" name="select">
-                                                            <option value="opt1">Tình Trạng</option>
-                                                            <option value="opt2" selected>Hiệu Lực</option>
-                                                            <option value="opt3">Hết Hiệu Lực</option>
+                                                            <option value="Tình Trạng">Tình Trạng</option>
+                                                            <option value="Hiệu Lực" selected>Hiệu Lực</option>
+                                                            <option value="Hết Hiệu Lực">Hết Hiệu Lực</option>
                                                         </select>
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
@@ -1028,7 +1028,7 @@
                                                     <div class="text-center custom-pro-edt-ds">
                                                         <button type="button"
                                                             class="btn btn-ctl-bt waves-effect waves-light m-r-10"
-                                                            onclick="validateFieldsAndRedirectV()">Lưu</button>
+                                                            onclick="event.preventDefault(); saveVoucher();">Lưu</button>
                                                     </div>
                                                 </div>
                                             </div>
