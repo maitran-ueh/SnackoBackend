@@ -152,12 +152,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 // Hàm tải lại danh sách sản phẩm từ localStorage và hiển thị trên bảng
 function loadProducts() {
-	var productList = JSON.parse(localStorage.getItem('productList')) || [];
-	var tbody = document.getElementById('product-list');
+	const productList = JSON.parse(localStorage.getItem('productList')) || []; // Lấy danh sách sản phẩm hoặc mảng rỗng nếu không có
+	const tbody = document.getElementById('product-list');
 	tbody.innerHTML = '';  // Xóa tất cả các sản phẩm hiện tại trong bảng
 	// Duyệt qua danh sách sản phẩm và thêm vào bảng
 	productList.forEach(product => {
-		var row = document.createElement('tr');
+		const row = document.createElement('tr');
 		row.innerHTML = `
             <td><img src="${product.img}" alt="" /></td>
             <td>${product.productName}</td>
@@ -195,7 +195,7 @@ function validateFieldsAndAdd() {
 }
 // Hàm thêm sản phẩm vào bảng và localStorage
 function addProductToTable(productName, status, cat, desc, sku, price, img) {
-	var product = {
+	const product = {
 		img: img,
 		productName: productName,
 		sku: sku,
@@ -205,7 +205,7 @@ function addProductToTable(productName, status, cat, desc, sku, price, img) {
 		desc: desc
 	};
 	// Lấy danh sách sản phẩm từ localStorage
-	var productList = JSON.parse(localStorage.getItem('productList')) || [];
+	const productList = JSON.parse(localStorage.getItem('productList')) || [];
 	// Thêm sản phẩm mới vào danh sách
 	productList.push(product);
 	// Lưu lại vào localStorage
@@ -240,10 +240,10 @@ function editProduct(element) {
 
 // Hàm xóa sản phẩm vĩnh viễn
 function xoaDongNay(element) {
-	var dongCanXoa = element.closest('tr');
-	var sku = dongCanXoa.cells[2].innerText;  // Lấy mã SKU của sản phẩm cần xóa
+	const dongCanXoa = element.closest('tr');
+	const sku = dongCanXoa.cells[2].innerText;  // Lấy mã SKU của sản phẩm cần xóa
 	// Lấy danh sách sản phẩm từ localStorage
-	var productList = JSON.parse(localStorage.getItem('productList')) || [];
+	let productList = JSON.parse(localStorage.getItem('productList')) || [];
 	// Loại bỏ sản phẩm khỏi danh sách
 	productList = productList.filter(product => product.sku !== sku);
 	// Lưu lại danh sách sản phẩm đã cập nhật vào localStorage
